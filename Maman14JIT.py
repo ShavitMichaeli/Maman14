@@ -28,8 +28,7 @@ def D1(A):
         assign = 0
         USize = 1
         assign += 1  # assigning USize
-        for i in range(1, len(
-                A)):  # First for loop in this algorithm, in each iteration the 'U = True' which assigning each and coparrasing  through the for loop. Complexity of O(N).
+        for i in range(1, len(A)):  # First for loop in this algorithm, in each iteration the 'U = True' which assigning each and coparrasing  through the for loop. Complexity of O(N).
             comp += 1
             U = True
             assign += 1
